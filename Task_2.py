@@ -26,5 +26,5 @@ print(sp_pl[(sp_pl['DisabilityFriendly'] != 'не приспособлен') & (
 
 print(sp_pl['SurfaceTypeSummer'].unique())
 print(sp_pl['SurfaceTypeSummer'].value_counts().max())
-# (1 балл) Сколько всего районов, в которых расположены площадки (метод .nunique() у колонки). Какой район имеет наибольшее количество площадок?
+
 print(sp_pl['District'].nunique())
